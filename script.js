@@ -55,7 +55,7 @@ function handleClick(e){
 
 function endGame(draw){
     if (draw){
-        winningMessageElement.innerText = "Cats game!"
+        winningMessageTextElement.innerText = "Cats game!"
     }else {
         winningMessageTextElement.innerText = `${circleAdd ? "O" : "X"} has Win!`
     }
